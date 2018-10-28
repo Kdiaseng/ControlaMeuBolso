@@ -41,6 +41,7 @@
             this.btnSalvarCadastroRenda = new System.Windows.Forms.Button();
             this.pnBotaoRenda = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnAddCategoriaRenda = new System.Windows.Forms.Button();
             this.pnRenda.SuspendLayout();
             this.pnBotaoRenda.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -190,6 +191,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(169)))), ((int)(((byte)(25)))));
+            this.panel1.Controls.Add(this.btnAddCategoriaRenda);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.BtnFecharCadatroRenda);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -198,12 +200,27 @@
             this.panel1.Size = new System.Drawing.Size(800, 39);
             this.panel1.TabIndex = 15;
             // 
+            // btnAddCategoriaRenda
+            // 
+            this.btnAddCategoriaRenda.FlatAppearance.BorderSize = 0;
+            this.btnAddCategoriaRenda.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddCategoriaRenda.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddCategoriaRenda.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(169)))), ((int)(((byte)(25)))));
+            this.btnAddCategoriaRenda.Image = ((System.Drawing.Image)(resources.GetObject("btnAddCategoriaRenda.Image")));
+            this.btnAddCategoriaRenda.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAddCategoriaRenda.Location = new System.Drawing.Point(707, 0);
+            this.btnAddCategoriaRenda.Name = "btnAddCategoriaRenda";
+            this.btnAddCategoriaRenda.Size = new System.Drawing.Size(43, 36);
+            this.btnAddCategoriaRenda.TabIndex = 11;
+            this.btnAddCategoriaRenda.UseVisualStyleBackColor = true;
+            this.btnAddCategoriaRenda.Click += new System.EventHandler(this.btnAddCategoriaRenda_Click);
+            // 
             // FrmCadastroRenda
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(38)))));
-            this.ClientSize = new System.Drawing.Size(800, 432);
+            this.ClientSize = new System.Drawing.Size(800, 445);
             this.Controls.Add(this.pnRenda);
             this.Controls.Add(this.pnBotaoRenda);
             this.Controls.Add(this.dtDataCadastroRenda);
@@ -235,5 +252,6 @@
         private System.Windows.Forms.Button btnSalvarCadastroRenda;
         private System.Windows.Forms.Panel pnBotaoRenda;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button btnAddCategoriaRenda;
     }
 }

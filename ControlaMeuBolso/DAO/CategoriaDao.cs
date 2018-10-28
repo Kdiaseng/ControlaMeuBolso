@@ -89,6 +89,34 @@ namespace ControlaMeuBolso.DAO
             return lista;
         }
 
+        public bool cadastrarCategoria(Categoria categoria)
+        {
+            try
+            {
+                ConectarComBanco.conectarComBanco();
+                string sql = "INSERT INTO CATEGORIA (DESCRICAO, IDTIPO) VALUES (@CATEGORIA,@IDTIPO)";
+                SqlCommand command = new SqlCommand(sql, ConectarComBanco.conexao);
+                command.Parameters.AddWithValue("@CATEGORIA", categoria.Descricao);
+                command.Parameters.AddWithValue("@IDTIPO", categoria.Tipo.IdTipo);
 
+                var result = command.ExecuteNonQuery();
+
+                if(result > 0)
+                {
+                    return true;
+                }
+            }
+            catch(Exception ex)
+            {
+
+            }
+            finally
+            {
+                ConectarComBanco.fecharConexao();
+            }
+
+            return false;
+
+        }
     }
 }

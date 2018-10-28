@@ -44,6 +44,7 @@
             this.btnCancelarCadastro = new System.Windows.Forms.Button();
             this.btnSalvarCadastro = new System.Windows.Forms.Button();
             this.pnBotao = new System.Windows.Forms.Panel();
+            this.btnAddCategoriaDespesas = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.pnDespesasP.SuspendLayout();
             this.pnCategoriaCusto.SuspendLayout();
@@ -53,6 +54,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(169)))), ((int)(((byte)(25)))));
+            this.panel1.Controls.Add(this.btnAddCategoriaDespesas);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.BtnFecharCadatro);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -241,6 +243,21 @@
             this.pnBotao.Size = new System.Drawing.Size(756, 90);
             this.pnBotao.TabIndex = 14;
             // 
+            // btnAddCategoriaDespesas
+            // 
+            this.btnAddCategoriaDespesas.FlatAppearance.BorderSize = 0;
+            this.btnAddCategoriaDespesas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddCategoriaDespesas.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddCategoriaDespesas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(169)))), ((int)(((byte)(25)))));
+            this.btnAddCategoriaDespesas.Image = ((System.Drawing.Image)(resources.GetObject("btnAddCategoriaDespesas.Image")));
+            this.btnAddCategoriaDespesas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAddCategoriaDespesas.Location = new System.Drawing.Point(706, 2);
+            this.btnAddCategoriaDespesas.Name = "btnAddCategoriaDespesas";
+            this.btnAddCategoriaDespesas.Size = new System.Drawing.Size(43, 33);
+            this.btnAddCategoriaDespesas.TabIndex = 15;
+            this.btnAddCategoriaDespesas.UseVisualStyleBackColor = true;
+            this.btnAddCategoriaDespesas.Click += new System.EventHandler(this.btnAddCategoriaDespesas_Click);
+            // 
             // FrmCadastroDespesas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -284,5 +301,6 @@
         private System.Windows.Forms.Button btnCancelarCadastro;
         private System.Windows.Forms.Button btnSalvarCadastro;
         private System.Windows.Forms.Panel pnBotao;
+        private System.Windows.Forms.Button btnAddCategoriaDespesas;
     }
 }

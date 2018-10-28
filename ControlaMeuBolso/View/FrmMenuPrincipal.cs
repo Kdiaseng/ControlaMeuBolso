@@ -70,6 +70,7 @@ namespace ControlaMeuBolso.View
             panelSlide.Height = btnPrincipal.Height;
             panelSlide.Top = btnPrincipal.Top;
             ucPrincipal.BringToFront();
+            
         }
     }
 }

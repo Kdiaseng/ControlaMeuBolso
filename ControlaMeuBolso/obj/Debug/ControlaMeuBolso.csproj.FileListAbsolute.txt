@@ -18,3 +18,24 @@ C:\Users\Kdias\source\repos\ControlaMeuBolso\ControlaMeuBolso\obj\Debug\Controla
 C:\Users\Kdias\source\repos\ControlaMeuBolso\ControlaMeuBolso\obj\Debug\ControlaMeuBolso.View.FrmCadastroRenda.resources
 C:\Users\Kdias\source\repos\ControlaMeuBolso\ControlaMeuBolso\obj\Debug\ControlaMeuBolso.View.ControleUsuario.UCRelatorios.resources
 C:\Users\Kdias\source\repos\ControlaMeuBolso\ControlaMeuBolso\obj\Debug\ControlaMeuBolso.View.FrmMenuPrincipal.resources
+C:\Users\Kdias\Documents\Projetos Pessoais\GitHub\ControlaMeuBolso\ControlaMeuBolso\bin\Debug\ControlaMeuBolso.exe.config
+C:\Users\Kdias\Documents\Projetos Pessoais\GitHub\ControlaMeuBolso\ControlaMeuBolso\bin\Debug\ControlaMeuBolso.exe
+C:\Users\Kdias\Documents\Projetos Pessoais\GitHub\ControlaMeuBolso\ControlaMeuBolso\bin\Debug\ControlaMeuBolso.pdb
+C:\Users\Kdias\Documents\Projetos Pessoais\GitHub\ControlaMeuBolso\ControlaMeuBolso\bin\Debug\CircularProgressBar.dll
+C:\Users\Kdias\Documents\Projetos Pessoais\GitHub\ControlaMeuBolso\ControlaMeuBolso\bin\Debug\WinFormAnimation.dll
+C:\Users\Kdias\Documents\Projetos Pessoais\GitHub\ControlaMeuBolso\ControlaMeuBolso\bin\Debug\CircularProgressBar.xml
+C:\Users\Kdias\Documents\Projetos Pessoais\GitHub\ControlaMeuBolso\ControlaMeuBolso\bin\Debug\WinFormAnimation.xml
+C:\Users\Kdias\Documents\Projetos Pessoais\GitHub\ControlaMeuBolso\ControlaMeuBolso\obj\Debug\ControlaMeuBolso.csprojAssemblyReference.cache
+C:\Users\Kdias\Documents\Projetos Pessoais\GitHub\ControlaMeuBolso\ControlaMeuBolso\obj\Debug\ControlaMeuBolso.View.ControleUsuario.UCDespesas.resources
+C:\Users\Kdias\Documents\Projetos Pessoais\GitHub\ControlaMeuBolso\ControlaMeuBolso\obj\Debug\ControlaMeuBolso.View.ControleUsuario.UCPrincipal.resources
+C:\Users\Kdias\Documents\Projetos Pessoais\GitHub\ControlaMeuBolso\ControlaMeuBolso\obj\Debug\ControlaMeuBolso.View.ControleUsuario.UCRelatorios.resources
+C:\Users\Kdias\Documents\Projetos Pessoais\GitHub\ControlaMeuBolso\ControlaMeuBolso\obj\Debug\ControlaMeuBolso.View.FrmCadastroDespesas.resources
+C:\Users\Kdias\Documents\Projetos Pessoais\GitHub\ControlaMeuBolso\ControlaMeuBolso\obj\Debug\ControlaMeuBolso.View.FrmCadastroRenda.resources
+C:\Users\Kdias\Documents\Projetos Pessoais\GitHub\ControlaMeuBolso\ControlaMeuBolso\obj\Debug\ControlaMeuBolso.Properties.Resources.resources
+C:\Users\Kdias\Documents\Projetos Pessoais\GitHub\ControlaMeuBolso\ControlaMeuBolso\obj\Debug\ControlaMeuBolso.View.FrmMenuPrincipal.resources
+C:\Users\Kdias\Documents\Projetos Pessoais\GitHub\ControlaMeuBolso\ControlaMeuBolso\obj\Debug\ControlaMeuBolso.csproj.GenerateResource.cache
+C:\Users\Kdias\Documents\Projetos Pessoais\GitHub\ControlaMeuBolso\ControlaMeuBolso\obj\Debug\ControlaMeuBolso.csproj.CoreCompileInputs.cache
+C:\Users\Kdias\Documents\Projetos Pessoais\GitHub\ControlaMeuBolso\ControlaMeuBolso\obj\Debug\ControlaMeuBolso.csproj.CopyComplete
+C:\Users\Kdias\Documents\Projetos Pessoais\GitHub\ControlaMeuBolso\ControlaMeuBolso\obj\Debug\ControlaMeuBolso.exe
+C:\Users\Kdias\Documents\Projetos Pessoais\GitHub\ControlaMeuBolso\ControlaMeuBolso\obj\Debug\ControlaMeuBolso.pdb
+C:\Users\Kdias\Documents\Projetos Pessoais\GitHub\ControlaMeuBolso\ControlaMeuBolso\obj\Debug\ControlaMeuBolso.View.Frm_cadastroCatergoria.resources

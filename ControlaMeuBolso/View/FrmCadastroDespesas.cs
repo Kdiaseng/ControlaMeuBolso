@@ -22,8 +22,9 @@ namespace ControlaMeuBolso.View
             this.principal = principal;
         }
 
-        private void carregarCategoria()
+        public void carregarCategoria()
         {
+            cbCategoria.Items.Clear();
             CategoriaDao categoriaDao = new CategoriaDao();
             var lista = categoriaDao.buscarCategoria(2);
 
@@ -41,7 +42,7 @@ namespace ControlaMeuBolso.View
             this.Close();
         }
 
-        private void FrmCadastroDespesas_Load(object sender, EventArgs e)
+        public void FrmCadastroDespesas_Load(object sender, EventArgs e)
         {
 
             carregarCategoria();
@@ -140,6 +141,12 @@ namespace ControlaMeuBolso.View
             {
                 e.Handled = true;
             }
+        }
+
+        private void btnAddCategoriaDespesas_Click(object sender, EventArgs e)
+        {
+            Frm_cadastroCatergoria cadastroCatergoria = new Frm_cadastroCatergoria(this, "Cadastro de Despesas", "Despesas", 2);
+            cadastroCatergoria.Show();
         }
     }
 }

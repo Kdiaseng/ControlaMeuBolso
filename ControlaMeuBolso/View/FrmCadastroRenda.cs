@@ -20,6 +20,7 @@ namespace ControlaMeuBolso.View
         public FrmCadastroRenda(UCPrincipal uCPrincipal)
         {
             this.uCPrincipal = uCPrincipal;
+
             InitializeComponent();
         }
 
@@ -68,6 +69,7 @@ namespace ControlaMeuBolso.View
 
             }
 
+
         }
 
         private void limparDados()
@@ -82,17 +84,18 @@ namespace ControlaMeuBolso.View
 
         
 
-        private void FrmCadastroRenda_Load(object sender, EventArgs e)
+        public void FrmCadastroRenda_Load(object sender, EventArgs e)
         {
             ArrendondarConponent.arrendondarCantos(pnBotaoRenda);
             ArrendondarConponent.arrendondarCantos(pnRenda);
            preencherCategoria();
-          cbCategoriaRenda.SelectedIndex = 0;
+           cbCategoriaRenda.SelectedIndex = 0;
 
         }
 
-        private void preencherCategoria()
+        public void preencherCategoria()
         {
+            cbCategoriaRenda.Items.Clear();
             CategoriaDao categoriaDao = new CategoriaDao();
             var lista = categoriaDao.buscarCategoria(1);
 
@@ -106,6 +109,7 @@ namespace ControlaMeuBolso.View
         private void BtnFecharCadatroRenda_Click(object sender, EventArgs e)
         {
             this.Close();
+            uCPrincipal.setVisiblePanel(true);
         }
 
         private void txCustorenda_KeyPress(object sender, KeyPressEventArgs e)
@@ -127,6 +131,14 @@ namespace ControlaMeuBolso.View
             {
                 e.Handled = true;
             }
+        }
+
+        private void btnAddCategoriaRenda_Click(object sender, EventArgs e)
+        {
+            
+            Frm_cadastroCatergoria cadastroCatergoria = new Frm_cadastroCatergoria(this,"Cadastro de Redimentos", "Redimentos",1);
+            cadastroCatergoria.Show();
+
         }
     }
 }

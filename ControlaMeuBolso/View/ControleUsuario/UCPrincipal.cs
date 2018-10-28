@@ -75,17 +75,26 @@ namespace ControlaMeuBolso.View.ControleUsuario
         {
             FrmCadastroDespesas frmCadastro = new FrmCadastroDespesas(this);
             frmCadastro.Show();
+           
         }
 
         private void btnAdicionarRenda_Click(object sender, EventArgs e)
         {
+           
             FrmCadastroRenda frmCadastro = new FrmCadastroRenda(this);
             frmCadastro.Show();
+            setVisiblePanel(false);
+
         }
 
         private void btnMostrarRelatorio_Click(object sender, EventArgs e)
         {
                 
+        }
+
+        public void setVisiblePanel(bool visivel)
+        {
+           
         }
     }
 }
